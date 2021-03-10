@@ -1,0 +1,19 @@
+This is a design of an Order Book
+
+
+What is an Order Book?
+- A collection of open buy side and open sell side orders for any given financial instrument
+
+The parts the order book needs:
+- Buy orders
+- Sell orders
+- Order history
+
+For the purpose of this project, this is a design of an order book for one asset.
+
+Features:
+- Print the orders n value deviation from current spot price
+- Update the values 
+- See the latest bid and ask price
+- Print history of trades
+- 
