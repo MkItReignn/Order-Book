@@ -1,4 +1,6 @@
 #include <string>
+#include <time.h>
+
 #ifndef ORDER_HPP
 #define ORDER_HPP
 
@@ -14,10 +16,17 @@ private:
 	string _orderType;
 	double _limitPrice;
 	int _quantity;
+	time_t _orderTime;
 public:
 	// Constructor which will be used for user inputs
 	Order(string tickerSymbol, string orderType, 
-		double limitPrice, int quantity);
+		double limitPrice, int quantity, time_t orderTime);
+
+	double getLimitPrice();
+	int getQuantity();
+	time_t getTime();
+
+	void printOrder();
 };
 
 

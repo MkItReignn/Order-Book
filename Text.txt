@@ -12,8 +12,7 @@ The parts the order book needs:
 For the purpose of this project, this is a design of an order book for one asset.
 
 Features:
-- Print the orders n value deviation from current spot price
-- Update the values 
+- Print the orders n value deviation from current spot price 
+- Update the volume at each price point 
 - See the latest bid and ask price
 - Print history of trades
-- 
